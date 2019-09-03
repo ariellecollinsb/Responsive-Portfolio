@@ -122,7 +122,6 @@ textarea {
 }
 
 .portfolio-item img {
-    display: center;
     width: 100%;
     height: 100%;
 }
@@ -136,4 +135,48 @@ textarea {
     padding-top: 10px;
     background-color: #4aaaa5;
     color: #fff;
+}
+
+@media (max-width: 960px) {
+
+    .header-content, .main-content, .footer-content {
+        width: auto;
+       
+    
+    }
+}
+
+@media (max-width: 768px) {
+
+    h1, nav, footer {
+        float: none;
+        text-align: center;
+    }
+    .footer-content {
+       
+        text-align: center;
+        height: auto;
+    }
+    .header-content{
+        height: auto;
+    }
+    nav {
+        line-height: inherit;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    h1, nav, .portfolio-item {
+        float: none;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+    .headshot {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    }
 }
