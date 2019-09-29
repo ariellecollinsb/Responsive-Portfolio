@@ -87,21 +87,24 @@ footer {
 /* I'm considering making the <small> absolutely relative to the <footer> element.*/
 .footer-content {
     margin: 0 auto;
-    width: 960px;
     text-align: center;
+    width: 960px;
     color: #ccc;
-    padding-top: 48px;
+    padding-top: 30px;
 }
 
-.footer-nav {
+/* .copy {
+    
+} 
 
-    padding-right: 10px;
-}
+.links {
+
+    display: inline-block;
+} */
 
 .container {
 
     margin-top: 20px;
-    /* background-color: ; */
     color: #fff;
     
 }
