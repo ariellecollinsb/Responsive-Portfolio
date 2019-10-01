@@ -152,7 +152,7 @@ textarea {
 @media (max-width: 960px) {
 
     .header-content, .main-content, .footer-content {
-        width: auto;
+        width: 100%;
        
     
     }
